@@ -1,0 +1,184 @@
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.80)
+        ),
+        url("images.jfif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#fifa1{
+display: flex;
+width: 220px;;
+}
+#reddead1{
+display: flex;
+width: 220px;
+}
+header{
+    width: 100%;
+    padding: 30px 50px;
+}
+#topo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#topo h1{
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow:
+     3px 3px 8px black;
+}
+#entrar{
+    background: rgba(180, 0, 0, 0.81);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+#entrar:hover{
+    background: #e50914;
+    transform: scale(1.08);
+}
+header:not(#cadastro-header){
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+}
+header:not(#cadastro-header) h3{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 32px;
+    text-shadow: 3px 3px 8px black;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    gap: 35px;
+    margin-top: 30px;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav a:hover{
+    color:#e50914;
+}
+label{
+    text-align: center;
+}
+#sobre{
+    text-align: center;
+}
+#formcadastro{
+    text-align: center;
+    box-shadow: black;
+}
+#cadastro-main{
+    text-align: center;
+}
+#formlogin{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.entrar {
+    color: #8e20fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #3c00b5;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -320px; 
+    width: 300px;
+    height: 100%;
+    background-color: #222831;
+    color: #ffffff;
+    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.4);
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    display: flex;
+}
+
+
+.sidebar.ativa {
+    right: 0;
+}
+
+.btn-fechar {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 28px;
+    cursor: pointer;
+    float: right;
+}
+
+.conteudo-sidebar {
+    margin-top: 40px;
+}
+
+.conteudo-sidebar h3 {
+    border-bottom: 2px solid #8e20fc;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.conteudo-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.conteudo-sidebar ul li {
+    margin-bottom: 10px;
+}

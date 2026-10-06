@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu login - PLAYCRITICA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <h1>PLAYCRITICA</h1>
+            <a href="PLAYCRITICA.html" class="entrar">ENTRAR NO SITE</a>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#" id="btn-inicio">Início</a></li>
+                <li><a href="#" id="btn-sobre">Sobre</a></li>
+                <li><a href="#" id="btn-contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside id="sidebar" class="sidebar">
+        <button id="btn-fechar" class="btn-fechar">&times;</button>
+        <div id="conteudo-sidebar" class="conteudo-sidebar"></div>
+    </aside>
+
+    <main class="login-main">
+        <div class="login">
+            <h2>LOGAR NA SUA CONTA</h2>
+            <p>Logar na sua conta da PLAYCRITICA</p>
+            <form id="formLogin">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu username" required>
+                <br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Digite sua senha" required>
+                <br>
+                <button type="button" id="botao1" onclick="window.location.href='PLAYCRITICA.html'">ENTRAR</button>
+            </form>
+        </div>
+        <footer>@todos direitos reservados a Arthur e Elisa 06/10/2026</footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
